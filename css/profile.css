@@ -1,0 +1,18 @@
+.imagen {
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.imagen img {
+    border: 5px solid black;
+}
+
+.estrellita {
+    color: blue;
+}
+
+#flag {
+    width: 250px;
+    height: 450px;
+}

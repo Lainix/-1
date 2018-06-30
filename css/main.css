@@ -1,0 +1,83 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #040404;
+    padding: 10px 0;
+}
+
+header .log img {
+    height: 22px;
+    ;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header .menu {
+    padding: 10px 0;
+    margin-right: 40px;
+}
+
+header .menu a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .menu a:hover {
+    color: #fff;
+}
+
+header .menu .usuario {
+    border-radius: 100%;
+    display: inline-block;
+}
+
+/* estilo al div que contiene los textarea y boton */
+
+#bordenegro {
+    border: 2px solid black !important;
+    border-radius: 4px;
+}
+
+/* se aplico estilo a TEXTAREA porque no se puede con clases o id */
+
+textarea {
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 6px 0px !important;
+    margin-bottom: 0 !important;
+}
+
+/* estilo al boton de buscar */
+
+#search-button {
+    background-color: #040404;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 4px 0px;
+    padding: 5px 10px;
+}
+
+#padrePost {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#padrePost h2 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+#padrePost p {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
